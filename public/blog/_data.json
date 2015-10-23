@@ -1,0 +1,36 @@
+{
+    "rss": {
+        "layout": false
+    },
+    "frist-post": {
+        "title": "Frist Post",
+        "date": "September 25, 2015",
+        "authors": "oguchi-nzekwe",
+        "description": "Hello world. I want to welcome you to the world of JavaScript programming where we will delve into all kinds of stuff, and hopefully learn something important...",
+        "tags": ["welcome", "javascript"]
+    },
+    "second-post": {
+        "title": "Second Post",
+        "date": "September 26, 2015",
+        "authors": "oguchi-nzekwe",
+        "description": "just the seond post, no buggie...",
+        "tags": [""],
+        "draft": true
+    },
+    "third-post": {
+        "title": "Third Post",
+        "date": "September 27, 2015",
+        "authors": "oguchi-nzekwe",
+        "description": "just the thrrred post, cos when you're in NY, concrete jungle...",
+        "tags": ["ayy"]
+        
+    },
+    "welcome":{
+        "title": "welcome",
+        "date": "October 31, 2015",
+        "authors": "oguchi-nzekwe",
+        "description": "Welcome to oguching, I would like to share a bit about why I'm doing this...",
+        "tags": ["welcome", "first post"],
+        "draft": true
+    }
+}

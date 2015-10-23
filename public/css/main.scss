@@ -1,0 +1,98 @@
+@import "_bootstrap.scss";
+
+//
+//-- Variables
+//
+
+$brand-primary: tomato;
+$white : #fff;
+$navbar-height: 100px;
+$font-size-base: 18px;
+$font-family-sans-serif:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body {
+    font-size: $font-size-base;
+    font-family: $font-family-sans-serif;
+}
+
+.name {
+    padding-top: 20px;
+    h1{
+        color: #7f7f7f;
+        font-family: $font-family-serif;
+        font-weight: 200;
+        font-size: 10em;
+        text-shadow: 1px 1px 0.5px $gray;
+        margin-bottom: 0px;
+    }
+    p{
+        font-size: $font-size-h1;
+        color: $brand-primary;
+    }
+    
+}
+
+.navigation {
+    position: relative;
+    height: $navbar-height;
+    padding: 2em 0;
+    text-align: right;
+    background-color: $brand-primary;
+    a {
+        color: $white;
+        font-size: 18px;
+        margin: 0 4em 0 0;
+        text-decoration: none;
+        padding-bottom: 0.5em;
+        &:hover {
+            border-bottom: 3px solid;
+        }
+    }
+}
+
+.main-title {
+    margin: 0;
+    float: left;
+}
+
+.divider {
+    color: $gray-light;
+    position: relative;
+    text-align: center;
+}
+
+.no-list{
+    list-style-type: none;
+}
+
+section {    
+    @include make-row();
+    article, div {
+        @include make-md-column(8);
+        @include make-md-column-offset(2);
+    }
+}
+
+article, div {
+    padding-top: 50px;
+}
+
+div ul li {
+    padding-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    padding: 1em;    
+}
+
+@media (max-width: 285px) {
+    .navigation {
+        height: 1.5 * $navbar-height;
+    }
+}

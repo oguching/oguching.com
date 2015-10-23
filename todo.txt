@@ -1,0 +1,10 @@
+- fix blog listings. Make reverse chrono order
+- fix footer. Make it stick to the bottom no matter what
+- fix the way tags display in page
+[x] fix bullets on ul of posts in /blog
+- work on /contact page
+- write first post.
+
+***
+Launch date: 31 october, 2015.
+***
