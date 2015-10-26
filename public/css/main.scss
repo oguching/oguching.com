@@ -5,15 +5,21 @@
 //-- Variables
 //
 
-$brand-primary: tomato;
+$brand-primary: #ff6347;
 $white : #fff;
 $navbar-height: 100px;
 $font-size-base: 18px;
 $font-family-sans-serif:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-size: $font-size-base;
     font-family: $font-family-sans-serif;
+    margin-bottom: 60px;
 }
 
 .name {
@@ -66,6 +72,10 @@ body {
     list-style-type: none;
 }
 
+.inline {
+    display: inline;
+}
+
 section {    
     @include make-row();
     article, div {
@@ -87,7 +97,11 @@ div ul li {
     bottom: 0;
     height: 60px;    
     width: 100%;
-    position:static;
+    position: absolute;
+    a{
+        text-decoration: none;
+        margin: 0 0.5em 0;
+    }
 }
 
 @media (max-width: 285px) {
