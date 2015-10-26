@@ -1,10 +1,11 @@
 [x] fix blog listings. Make reverse chrono order
--- fix is to place new posts at the top
+--- fix is to place new posts at the top
 [x] fix footer. Make it stick to the bottom no matter what
 - fix the way tags display in page
 [x] fix bullets on ul of posts in /blog
 [x] work on /contact page
 - write first post.
+- link to font-awesome cdn. The file size is huge.
 
 ***
 Launch date: 31 october, 2015.
