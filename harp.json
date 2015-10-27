@@ -1,10 +1,12 @@
 {
     "globals": {
-    "title": "Oguchi Nzekwe",
-	"sitename": "oguching",
-    "description": "JavaScript and so much more",
-	"uri": "http://oguching.com",
-	"twitter": "oguching",
-    "github": "oguching"
+      "title": "Oguchi Nzekwe",
+	  "sitename": "oguching",
+      "description": "JavaScript and so much more",
+	  "uri": "http://oguching.com",
+      "service": {
+          "twitter": "oguching",
+          "github": "oguching"
+      }
     }
 }

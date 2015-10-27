@@ -5,7 +5,9 @@
 [x] fix bullets on ul of posts in /blog
 [x] work on /contact page
 - write first post.
-- link to font-awesome cdn. The file size is huge.
+[x] link to font-awesome cdn. The file size is huge.
+[x] play with other font options. Roboto is cool but How about open sans...?
+- work on rss
 
 ***
 Launch date: 31 october, 2015.
