@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xlmns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title><%- title %></title>
         <link><%- uri %></link>
@@ -8,13 +8,15 @@
         
         <% for(slug in public.blog._data) { %>
         <% var post = public.blog._data[slug] %>
+         <% if (post.title && post.draft !== true) { %>
           <item>
               <title><%- post.title %></title>
-              <description><![CDATA[<%- partial("blog/" + slug) %>]]></description>
-              <pubDate><%- Date(post.date) %></pubDate>
-              <link><%- uri %>/blog/<%- post %></link>
-              <guid isPermaLink="true"><%- uri %>/blog/<%-post %></guid>
+              <description><![CDATA[<%- partial(slug) %>]]></description>
+              <pubDate><%- new Date(post.date) %></pubDate>
+              <link><%- uri %>/blog/<%- slug %></link>
+              <guid isPermaLink="true"><%- uri %>/blog/<%- slug %></guid>
           </item>
+          <% } %>
         <% } %>
     </channel>
 </rss>

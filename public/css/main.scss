@@ -9,12 +9,13 @@ $brand-primary: #ff6347;
 $white : #fff;
 $navbar-height: 100px;
 $font-size-base: 18px;
-$font-family-sans-serif:  "Open Sans", "Roboto" "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  "Open Sans", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:       "Bree Serif", Georgia, "Times New Roman", Times, serif;
 
 html {
     position: relative;
     min-height: 100%;
+    font-family: $font-family-sans-serif;
 }
 
 body {
