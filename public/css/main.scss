@@ -109,8 +109,27 @@ div ul li {
     }
 }
 
-@media (max-width: 285px) {
+@media (max-width: 300px) {
     .navigation {
         height: 1.5 * $navbar-height;
+    }
+    .name {
+        h1 {
+            font-size: 4em;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 472px) {
+    .name{
+        h1 {
+            font-size: 6em;
+        }
+        p{
+            font-size: 30px;
+        }
     }
 }
