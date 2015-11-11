@@ -1,7 +1,8 @@
 - write first post. (done)
 - work on rss (done)
 - push to github
+- correct layout for all breakpoints
 
 ***
-Launch date: 31 october, 2015.
+Launch date: 31 october, 2015. (done)
 ***
