@@ -1,0 +1,11 @@
+*I Wrote this post a long time ago when I was still on Tumblr. I've editted it lightly but you can still find the original [here](http://craftter.tumblr.com/post/11694490797/pickone)*
+
+My first exposure to programming was with Visual Basic in School. I found it very fun to program in, and it was easy to understand. Then I had one unit in C++ and then C and then Java. Learning operating systems, I was exposed to a bit of Perl and I’ve tried out JavaScript, PHP, Ruby, Python and C#. 
+
+I’m at the point in my life now where I have to pick one to learn in-depth instead of have a shallow understanding of the popular languages. I think this is a problem for most people who are exposed to a lot of different languages and technologies, which do I pick? 
+
+In school you do most of your work in one language. Mine was in Java and C but mostly Java so that's my background. You mostly learn concepts in school, not just the intricacies of the particular language so you can carry your knowledge to any language. However you still need a language to explore and be proficient in. So which one to pick?
+
+I will say it does not matter, what matters is your willingness to learn and do something great with the language. I know every language has its strengths and weaknesses, there are scenarios where it shines or does not, there are languages that the internet loves and some like PHP that we all love to hate but who cares? You just want something to be proficient in and exercise your knowledge so seriously pick one and stick to it for at least 3 years or however long it takes you to be an expert in that one language. And while you’re at it be deaf to articles and people saying language X is dead. Did you know skype is written in Delphi? Ever heard of anyone programming in Delphi? 
+
+I read that the best way to learn a language is to build something in that language so get a book nearby, have your browser open, and think of something to build in your language of choice and build it. It doesn’t matter if its been done before, the object here is learning and understanding so do it, for you. 

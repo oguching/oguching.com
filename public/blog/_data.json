@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "pick-one": {
+        "title": "Pick One",
+        "date": "November 20, 2015",
+        "authors": "oguchi-nzekwe",
+        "description": "Pick One, in which I give my take on the question, which language should I learn?",
+        "tags": ["programming"]
+    },
     "welcome":{
         "title": "Welcome",
         "date": "October 29, 2015",
