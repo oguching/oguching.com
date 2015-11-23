@@ -10,7 +10,7 @@ $white : #fff;
 $navbar-height: 100px;
 $font-size-base: 18px;
 $font-family-sans-serif:  "Open Sans", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Bree Serif", Georgia, "Times New Roman", Times, serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
 
 html {
     position: relative;
@@ -104,6 +104,7 @@ div ul li {
     width: 100%;
     position: absolute;
     margin-top: 4em;
+    padding: 4rem 1rem;
     a{
         text-decoration: none;
         margin: 0 0.5em 0;
