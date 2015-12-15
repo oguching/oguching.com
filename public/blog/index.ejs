@@ -1,12 +1,11 @@
 <section class="container">
    <div>
-        <ul>
+        <ul class='posts'>
            <h2>Posts</h2>
             <% for(var slug in public.blog._data) { %>
               <% var post = public.blog._data[slug] %>
               <% if (post.title && post.draft !== true) { %>
-            <li class="no-list"><span class="h2"><time class="text-muted"><%= post.date %></time><a href="<%= slug %>">
-                    <%= post.title %></a></span>            
+                <li class="list-unstyled h2"><span><time class="text-muted"><%= post.date %></time></span><a href="<%= slug %>"><%= post.title %></a>            
                 </li>
               <% } %>
             <% } %>

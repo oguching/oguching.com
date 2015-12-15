@@ -1,6 +1,6 @@
 - write first post. (done)
 - work on rss (done)
-- push to github
+- push to github (done)
 - correct layout for all breakpoints
 
 ***
