@@ -1,1 +1,0 @@
-# oguching.com
