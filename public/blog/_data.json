@@ -2,6 +2,12 @@
     "rss": {
         "layout": false
     },
+    "2015-year-in-review": {
+        "title": "2015: Year In Review",
+	"date": "December 30, 2015",
+	"authors": "oguchi-nzekwe",
+	"description": "I review the main events of the year and set goals for 2016"
+    },
     "pick-one": {
         "title": "Pick One",
         "date": "November 20, 2015",
