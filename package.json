@@ -1,0 +1,26 @@
+{
+  "name": "oguching_com",
+  "version": "1.0.0",
+  "description": "oguching - personal website of oguchi nzekwe (@oguching)",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oguching/oguching.com.git"
+  },
+  "keywords": [
+    "static",
+    "surge.sh",
+    "harp.js",
+    "website",
+    "personal"
+  ],
+  "author": "Oguchi Nzekwe (nzekwe@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oguching/oguching.com/issues"
+  },
+  "homepage": "https://github.com/oguching/oguching.com#readme"
+}
