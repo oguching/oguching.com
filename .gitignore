@@ -13,7 +13,7 @@ build/Release
 node_modules
 components
 bower_components
-package.js
+package.json
 
 # Compile directories
 www/
