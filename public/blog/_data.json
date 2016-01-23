@@ -7,8 +7,7 @@
 	    "date": "January 21, 2015",
 	    "authors": "oguchi-nzekwe",
 	    "description": "Explore how to get first and last element in any array",
-        "tags": ["JavaScript", "Arrays"],
-	    "draft": true
+        "tags": ["JavaScript", "Arrays"]
     },
     "2015-in-review": {
         "title": "2015: Year In Review",
