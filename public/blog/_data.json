@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "beware-of-boolean-options": {
+    	"title": "Beware of Boolean options",
+    	"date": "January 24, 2016",
+    	"authors": "oguchi-nzekwe",
+    	"description": "We show how Boolean options can lead to errors",
+    	"tags":["api design"]
+    },
     "access-first-and-last-elements-in-an-array": {
         "title": "Access first and last elements in an Array",
 	    "date": "January 21, 2015",
