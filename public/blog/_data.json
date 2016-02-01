@@ -11,7 +11,7 @@
     },
     "access-first-and-last-elements-in-an-array": {
         "title": "Access first and last elements in an Array",
-	    "date": "January 21, 2015",
+	    "date": "January 21, 2016",
 	    "authors": "oguchi-nzekwe",
 	    "description": "Explore how to get first and last element in any array",
         "tags": ["JavaScript", "Arrays"]
