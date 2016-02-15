@@ -4,7 +4,8 @@
   "description": "oguching - personal website of oguchi nzekwe (@oguching)",
   "main": "\"\"",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "harp compile --output ../_site && cp CNAME ../_site"
   },
   "repository": {
     "type": "git",
