@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "automate-error-prone-process": {
+        "title": "Automate error-prone process",
+        "date": "February 16, 2016",
+        "authors": "oguchi-nzekwe",
+        "description": "Use npm scripts to automate error prone processes and save time",
+        "tags": ["npm", "harpjs", "surge.sh", "automate"]
+    },
     "beware-of-boolean-options": {
     	"title": "Beware of Boolean options",
     	"date": "January 24, 2016",
