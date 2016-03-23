@@ -2,6 +2,14 @@
     "rss": {
         "layout": false
     },
+    "blabber": {
+      "title": "Blabber",
+      "date": "March 23, 2016",
+      "authors": "oguchi-nzekwe",
+      "description": "Thinking out loud on a short message service called Blabber",
+      "tags": ["twitter", "tumblr", "blabber"]
+
+    },
     "automate-error-prone-process": {
         "title": "Automate error-prone process",
         "date": "February 16, 2016",
