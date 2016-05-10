@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "Piwik for Analytics": {
+        "title": "Piwik for analytics",
+        "date": "May 10, 2016",
+        "authors": "oguchi-nzekwe",
+        "description": "Using self hosted Piwik in place of Google Analytics",
+        "tags": ["piwik", "google analytics", "sandstorm"]
+    },
     "blabber": {
       "title": "Blabber",
       "date": "March 23, 2016",
