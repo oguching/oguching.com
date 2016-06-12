@@ -2,8 +2,8 @@
     "rss": {
         "layout": false
     },
-    "Building-Riser": {
-        "title": "building-Riser",
+    "building-Riser": {
+        "title": "Building Riser",
         "date": "June 12, 2016",
         "authors": "oguchi-nzekwe",
         "description": "I talk about building Riser, a template for Harp",
