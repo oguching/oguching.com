@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "Building-Riser": {
+        "title": "building-Riser",
+        "date": "June 12, 2016",
+        "authors": "oguchi-nzekwe",
+        "description": "I talk about building Riser, a template for Harp",
+        "tags": ["Riser", "Harp", "template"]
+    },
     "Piwik-for-Analytics": {
         "title": "Piwik for analytics",
         "date": "May 10, 2016",
