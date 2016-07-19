@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "why-do-you-want-to-be-verified": {
+        "title": "Why do you want to be verified",
+	"date": "July 19, 2016",
+	"authors": "oguchi-nzekwe",
+	"description": "Twitter now let's you get verified by filling a form, I had fun filling said form",
+	"tags": ["twitter", "verified account"]
+    },
     "building-Riser": {
         "title": "Building Riser",
         "date": "June 12, 2016",
