@@ -2,12 +2,19 @@
     "rss": {
         "layout": false
     },
+    "k-combinator": {
+        "title": "K combinator",
+        "date": "October 9, 2016",
+        "authors": "oguchi-nzekwe",
+        "description": "Understanding combinators in JavaScript",
+        "tags": ["JavaScript", "combinators"]
+    },
     "why-do-you-want-to-be-verified": {
         "title": "Why do you want to be verified",
-	"date": "July 19, 2016",
-	"authors": "oguchi-nzekwe",
-	"description": "Twitter now let's you get verified by filling a form, I had fun filling said form",
-	"tags": ["twitter", "verified account"]
+        "date": "July 19, 2016",
+        "authors": "oguchi-nzekwe",
+        "description": "Twitter now let's you get verified by filling a form, I had fun filling said form",
+       	"tags": ["twitter", "verified account"]
     },
     "building-Riser": {
         "title": "Building Riser",
