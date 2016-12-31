@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "2016-in-review" : {
+        "title" : "2016: Year in review",
+        "date" : "December 31, 2016",
+        "authors" : "oguchi-nzekwe",
+        "description" : "I talk about learning and how I did with the goals I set for the year",
+        "tags" : ["2016", "review"]    
+    },
     "k-combinator": {
         "title": "K combinator",
         "date": "October 9, 2016",
