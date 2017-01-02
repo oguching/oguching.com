@@ -2,6 +2,11 @@
     "rss": {
         "layout": false
     },
+    "devfest-2016": {
+        "title": "Devfest 2016",
+        "date": "October 16, 2016",
+        "draft": true
+    }, 
     "2016-in-review" : {
         "title" : "2016: Year in review",
         "date" : "December 31, 2016",
