@@ -1,135 +1,37 @@
-@import "_bootstrap.scss";
-//@import "_font-awesome.scss";
-//
+
+@import 'reset';
+@import 'variables';
+@import 'typography';
 //-- Variables
 //
-$orange: #FF851B;
-$tomato:  #FF6347; 
-$brand-primary: #FF4136;
-$white : #fff;
-$black: #111;
-$navbar-height: 100px;
-$font-size-base: 18px;
-$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Lato", Georgia, Times, serif;
-$link-color:       $brand-primary;
-$link-hover-color: darken($link-color, 15%);
-
-// Links
-a {
-  color: $link-color;
-  text-decoration: none;
-
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: underline;
-  }
-}
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
 }
-
 html {
-    position: relative;
-    min-height: 100%;
-}
-
-.wrapper {
-    margin: 4px auto;
-    width: 100%;
-    max-width: 800px;
-    background: transparent;
-}
-
-body {
-    font-size: $font-size-base;
-    font-family: $font-family-serif;
-    margin-bottom: 60px;
-    h2, h3, h4, h5 {
-        font-family: $font-family-sans-serif;
-    }
-}
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: ($line-height-computed / 2);
-  padding-left: 1.2em;
-}
-
-
-.navigation {
+    color: $text-color;
     font-family: $font-family-sans-serif;
-    position: relative;
-    padding: 2em 0;
-    text-align: right;
-    background-color: $brand-primary;
-    a {
-        color: $black;
-        font-size: 18px;
-        margin: 0 4em 0 0;
-        text-decoration: none;
-        padding-bottom: 0.5em;
-        &:hover {
-            border-bottom: 3px solid;
-        }
-    }
+    font-size: 125%;
+    
 }
 
-.logo {
-    margin: 0;
-    margin-left: 2em;
-    float: left;
+p {
+    line-height: 1.5;
 }
 
-.divider {
-    color: $gray-light;
-    position: relative;
-    text-align: center;
-}
-
-.posts span {
-    padding-right: 1em;
-   display: inline-block;
-}
-
-ul li.h2 {
-    margin: 0;
-    padding-bottom: 1em;
-}
 .inline {
     display: inline;
 }
 
-section {    
-    @include make-row();
-    article, div {
-        @include make-md-column(8);
-        @include make-md-column-offset(2);
-    }
+.nav {
+    display: inline-block;
 }
 
-article, div {
-    padding-top: 50px;
-}
-
-div ul li {
-    padding-bottom: 1em;
-}
-
-.footer {
-    text-align: center;
-    bottom: 0;
-    height: 60px;    
-    width: 100%;
+.right {
     position: absolute;
-    margin-top: 4em;
-    padding-top: 1em;
-    a{
-        text-decoration: none;
-        margin: 0 0.5em 0;
-    }
-
+    top: 0;
+    right: 0;
+    width: 50%;
 }
