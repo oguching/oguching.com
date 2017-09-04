@@ -2,6 +2,13 @@
     "rss": {
         "layout": false
     },
+    "arrow-functions": {
+        "title": "Arrow Functions in JavaScript",
+        "date": "September 4, 2017",
+        "authors": "oguchi-nzekwe",
+        "description": "Using Arrow Functions in JavaScript",
+        "tags": ["es6", "arrow function", "javascript"]
+    },
     "devfestse-2016": {
         "title": "Devfest 2016",
         "date": "October 16, 2016",
