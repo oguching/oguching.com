@@ -1,13 +1,19 @@
 {
-    "globals": {
+  "globals": {
+    "blog": {
       "title": "Oguchi Nzekwe",
-	  "sitename": "oguching",
       "description": "JavaScript and so much more",
-	  "uri": "http://oguching.com",
-      "service": {
-        "twitter": "oguching",
-        "github": "oguching",
-        "codepen": "oguching"
-      }
-    }
+      "logo": false,
+      "cover": false,
+      "uri": "/"
+    },
+    "author": {
+      "name": "Oguchi Nzekwe",
+      "email": "oguching@gmail.com",
+      "bio": "Developer, mostly JavaScript. Christian, Geek and so much more.",
+      "twitter": "oguching",
+      "github": "oguching",
+      "codepen": "oguching"
+    }   
+  }
 }
