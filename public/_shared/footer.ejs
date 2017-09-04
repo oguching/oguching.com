@@ -1,7 +1,11 @@
-<footer class="site-footer">
-    <a class="subscribe icon-feed" href="<% blog.url %>/blog/rss.xml"><span class="tooltip">Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="<% blog.url %>/"><%= blog.title %></a> &copy; <%- new Date().getFullYear() %> &bull; All rights reserved.</section>
-         <section class="poweredby">Proudly published with <a class="" href="http://harpjs.com">Harp</a></section>
-    </div>
-</footer>
+<section>
+    <footer class="footer">
+        <ul class="list-unstyled">
+            <li class="inline"><a href="https://twitter.com/<%- author.twitter %>"><span class="fa fa-twitter fa-lg"></span> </a></li>
+            <li class="inline"><a href="https://github.com/<%- author.github %>"><span class="fa fa-github-alt fa-lg"></span> </a></li>
+            <li class="inline"><a href="https://codepen.io/<%- author.codepen %>"><span class="fa fa-codepen fa-lg"></span> </a></li>
+        </ul>
+        <p class="text-muted">Copyright &copy;<a href="<%- blog.uri %>">Oguching</a> <%- new Date().getFullYear() %> &bull; All Rights Reserved</p>
+    </footer>
+</section>
+
